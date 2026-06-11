@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Jackson - Marquesinas</title>
+
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Verdana, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: gold;
+            text-shadow: 2px 2px 5px white;
+            border-bottom: 3px solid gold;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: silver;
+            text-shadow: 1px 1px 3px gold;
+        }
+
+        marquee {
+            margin: 15px 0;
+            padding: 10px;
+        }
+
+        .vertical {
+            background-color: #222;
+            height: 200px;
+            width: 300px;
+            margin: auto;
+            border: 3px solid gold;
+            color: white;
+        }
+
+        .rebote {
+            background-color: #111;
+            border: 3px solid silver;
+            color: gold;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .imagenes {
+            background-color: #111;
+            border: 4px solid gold;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .imagenes img {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            border: 4px solid silver;
+            border-radius: 15px;
+            box-shadow: 0 0 20px gold;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: silver;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>⭐ Michael Jackson - El Rey del Pop ⭐</h1>
+
+    <h2>Marquesina horizontal</h2>
+    <marquee>
+        🎤 Bienvenidos a la página dedicada a Michael Jackson 🎤
+    </marquee>
+
+    <h2>Marquesina horizontal hacia la derecha</h2>
+    <marquee direction="right">
+        👑 Michael Jackson, el Rey del Pop 👑
+    </marquee>
+
+    <h2>Marquesina vertical que sube</h2>
+    <marquee direction="up" class="vertical">
+        Billie Jean <br>
+        Thriller <br>
+        Beat It <br>
+        Smooth Criminal <br>
+        Black or White
+    </marquee>
+
+    <h2>Marquesina vertical que baja</h2>
+    <marquee direction="down" class="vertical">
+        Dangerous <br>
+        Bad <br>
+        History <br>
+        Invincible <br>
+        Off The Wall
+    </marquee>
+
+    <h2>Marquesina con rebote</h2>
+    <marquee behavior="alternate" scrollamount="15" class="rebote">
+        ✨ "The King of Pop Lives Forever" ✨
+    </marquee>
+
+    <h2>🎤 Galería de Michael Jackson 🎤</h2>
+
+    <marquee behavior="alternate" scrollamount="10" class="imagenes">
+
+        <img src="Michael  Jackson.jpg" alt="Michael Jackson 1">
+
+        <img src="Michael_Jackson.jpg" alt="Michael Jackson 2">
+
+        <img src="MichaelJackson.jpg" alt="Michael Jackson 3">
+
+    </marquee>
+
+    <div class="footer">
+     
+    </div>
+
+</body>
+</html>

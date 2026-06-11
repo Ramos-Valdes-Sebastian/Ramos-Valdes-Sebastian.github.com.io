@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Call of Duty: Modern Warfare 2</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1a1a1a;
+    color: white;
+}
+
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #7fff00;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    color: #7fff00;
+    font-size: 50px;
+}
+
+.subtitulo {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+section {
+    background: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #7fff00;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.tabla-wrapper {
+    overflow-x: auto;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabla th,
+.tabla td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla th {
+    background: #7fff00;
+    color: black;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria img {
+    width: 220px;
+    height: 130px;
+    margin: 10px;
+    border: 2px solid #7fff00;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Historia</a>
+    <a href="#personajes">Personajes</a>
+    <a href="#popular">Popularidad</a>
+</nav>
+
+<div class="contenedor">
+
+<header id="inicio">
+    <h1 class="titulo">Call of Duty: Modern Warfare 2</h1>
+    <p class="subtitulo">Mini Wikipedia del videojuego.</p>
+</header>
+
+<section>
+    <h2>Galería de Imágenes</h2>
+
+    <div class="galeria">
+        <img src="imagen 1.jpg" alt="Imagen 1">
+        <img src="imagen 2.jpg" alt="Imagen 2">
+        <img src="imagen 3.jpg" alt="Imagen 3">
+        <img src="imagen 4.jpg" alt="Imagen 4">
+    </div>
+</section>
+
+<section>
+    <h2>¿Qué es Modern Warfare 2?</h2>
+    <p>
+        Call of Duty: Modern Warfare 2 es un videojuego de disparos en primera persona
+        desarrollado por Infinity Ward. Es uno de los títulos más populares de la saga
+        Call of Duty debido a su emocionante campaña y su modo multijugador.
+    </p>
+</section>
+
+<section id="historia">
+    <h2>Historia</h2>
+    <p>
+        La historia sigue a un grupo de fuerzas especiales que intenta detener amenazas
+        internacionales. A lo largo de la campaña, los jugadores participan en misiones
+        de infiltración, rescate y combate.
+    </p>
+
+    <ul>
+        <li>Misiones tácticas.</li>
+        <li>Operaciones especiales.</li>
+        <li>Combates intensos.</li>
+        <li>Personajes memorables.</li>
+    </ul>
+</section>
+
+<section id="personajes">
+    <h2>Personajes Principales</h2>
+
+    <div class="tabla-wrapper">
+        <table class="tabla">
+            <tr>
+                <th>Personaje</th>
+                <th>Rol</th>
+            </tr>
+
+            <tr>
+                <td>Soap MacTavish</td>
+                <td>Soldado de fuerzas especiales</td>
+            </tr>
+
+            <tr>
+                <td>Capitán Price</td>
+                <td>Líder del equipo</td>
+            </tr>
+
+            <tr>
+                <td>Ghost</td>
+                <td>Operador táctico</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="popular">
+    <h2>¿Por qué es tan popular?</h2>
+
+    <p>
+        Modern Warfare 2 es recordado por sus emocionantes misiones, sus personajes
+        icónicos y su excelente experiencia multijugador. Muchos jugadores lo consideran
+        uno de los mejores juegos de la franquicia.
+    </p>
+</section>
+
+<footer>
+    <p>Mini Wikipedia de Modern Warfare 2 © 2026</p>
+</footer>
+
+</div>
+
+</body>
+</html>
+
